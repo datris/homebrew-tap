@@ -11,7 +11,7 @@ class Datris < Formula
 
   def install
     venv = virtualenv_create(libexec, "python3.12")
-    venv.pip_install "datris-mcp-server==#{version}"
+    system libexec/"bin/pip", "install", "datris-mcp-server==#{version}"
     bin.install_symlink Dir[libexec/"bin/datris"]
     bin.install_symlink Dir[libexec/"bin/datris-mcp-server"]
   end
