@@ -10,8 +10,8 @@ class Datris < Formula
   depends_on "python@3.12"
 
   def install
-    venv = virtualenv_create(libexec, "python3.12")
-    system libexec/"bin/pip", "install", "datris-mcp-server==#{version}"
+    virtualenv = virtualenv_create(libexec, "python3.12")
+    system libexec/"bin/python", "-m", "pip", "install", "datris-mcp-server==#{version}"
     bin.install_symlink Dir[libexec/"bin/datris"]
     bin.install_symlink Dir[libexec/"bin/datris-mcp-server"]
   end
