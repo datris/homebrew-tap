@@ -1,4 +1,4 @@
-66fe42d7cc4dbc74b3bf503c8ebd421c1dddf847f7dd85296a2c18d676015cfaclass Datris < Formula
+class Datris < Formula
   include Language::Python::Virtualenv
 
   desc "CLI for the Datris AI Agent-Native Data Platform"
