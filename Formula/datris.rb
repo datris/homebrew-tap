@@ -3,8 +3,8 @@ class Datris < Formula
 
   desc "CLI for the Datris AI Agent-Native Data Platform"
   homepage "https://datris.ai"
-  url "https://files.pythonhosted.org/packages/source/d/datris-mcp-server/datris_mcp_server-1.8.1.tar.gz"
-  sha256 "1c134142f41022133256e7530d4d04eeab7eab8505311ca0e4769fee49108837"
+  url "https://files.pythonhosted.org/packages/source/d/datris-mcp-server/datris_mcp_server-1.8.2.tar.gz"
+  sha256 "038c223ad78c50bac7b52af760771aa93866af091940a99fc14ac3bc101cbc0e"
   license "AGPL-3.0-only"
 
   depends_on "python@3.12"
