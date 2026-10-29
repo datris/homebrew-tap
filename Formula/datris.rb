@@ -1,11 +1,11 @@
 class Datris < Formula
   include Language::Python::Virtualenv
 
-  desc "CLI for the Datris AI Agent-Native Data Platform"
+  desc "CLI for Datris, the data control plane for AI agents"
   homepage "https://datris.ai"
-  url "https://files.pythonhosted.org/packages/source/d/datris-mcp-server/datris_mcp_server-1.53.0.tar.gz"
-  sha256 "48117efa422cc9c1fc3249ea25f21baaf3811503dd98c8b8bf19bf40e32cb66c"
-  license "AGPL-3.0-only"
+  url "https://files.pythonhosted.org/packages/source/d/datris-mcp-server/datris_mcp_server-1.54.0.tar.gz"
+  sha256 "a8e6b2a859d59bf9a1133eab88ecdaef4baddedaa2eb975cf5af35a3f5c33a98"
+  license "Apache-2.0"
 
   depends_on "python@3.12"
 
